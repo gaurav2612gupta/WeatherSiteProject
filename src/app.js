@@ -26,7 +26,7 @@ app.get("/weather",(req,res)=>{
 })
 app.get("*",(req,res)=>{
     res.render("404error",{
-        errorMsg: 'OOPs ! Page Not Found'
+        errorMsg: 'OOPs ! Page Not Found :('
     })
 })
 
